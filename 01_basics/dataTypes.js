@@ -15,7 +15,7 @@ let valueInNumber = Number(score3)
 
 let marks = 33.55
 let marksinNumber = Number(marks)
-console.log(typeof marksinNumber)
+// console.log(typeof marksinNumber)
 
 let bool = ""
 let Inboolean =Boolean(bool)
@@ -30,3 +30,15 @@ let Inboolean =Boolean(bool)
 //Boolean => 0,1
 //NULL = 0
 //undefined => NaN
+
+//-------------------------------------------------------------------------------------------------------------------------------
+//Memory in JS -> Stack(Primitive DataType) Heap(Non Primitive DataType)
+let user = "Nishant"
+let anotherName = user
+anotherName = "Sakshi"
+console.log(anotherName)
+console.log(user)
+//Output : Sakshi 
+//Nishant
+//Reason : In Stack memory data is copied
+
