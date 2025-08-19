@@ -5,3 +5,4 @@
 ( () => {
     console.log(`DB Connected Two`)
 })()
+// Handles global variable conflicts
