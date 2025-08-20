@@ -6,3 +6,8 @@
     console.log(`DB Connected Two`)
 })()
 // Handles global variable conflicts
+
+
+const iceTea = 800
+iceTea>500 ? console.log("Gaand me daal le chai ko") : console.log("Pilaa de pilaa de!")
+
