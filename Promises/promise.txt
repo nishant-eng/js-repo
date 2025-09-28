@@ -1,0 +1,13 @@
+Promise object operations are eventually completed in async operations
+three states of promises :
+    pending
+    fulfilled
+
+    Promise take a  callback
+    .then -> has a callback function which return the value
+    resolve is used to to call .then function
+    reject gives error
+     async await do not directly handles the error but uses the try catch block for error handing see promise5 
+     fot reference
+
+     then ka chaining
